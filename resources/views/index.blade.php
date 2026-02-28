@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
+
 @section('body')
+    {{-- ── Hero ─────────────────────────────────────────────── --}}
     <section id="hero">
         <div class="hero-bg"></div>
         <div class="hero-content">
@@ -17,7 +19,7 @@
         </div>
     </section>
 
-    <!-- ABOUT -->
+    {{-- ── About ────────────────────────────────────────────── --}}
     <section id="about">
         <div class="about-grid">
             <div class="about-img-wrap reveal">
@@ -56,7 +58,7 @@
         </div>
     </section>
 
-    <!-- COLLECTIONS -->
+    {{-- ── Collections ──────────────────────────────────────── --}}
     <section id="collections">
         <div class="collections-header reveal">
             <div class="section-label">Our Collections</div>
@@ -107,7 +109,7 @@
         </div>
     </section>
 
-    <!-- WHY CHOOSE US -->
+    {{-- ── Why Choose Us ─────────────────────────────────────── --}}
     <section id="why">
         <div class="why-header reveal">
             <div class="section-label">Why Choose Us</div>
@@ -148,7 +150,7 @@
         </div>
     </section>
 
-    <!-- GALLERY -->
+    {{-- ── Gallery ───────────────────────────────────────────── --}}
     <section id="gallery">
         <div class="gallery-header reveal">
             <div class="section-label" style="color:var(--gold)">Our Gallery</div>
@@ -191,7 +193,7 @@
         </div>
     </section>
 
-    <!-- TESTIMONIALS -->
+    {{-- ── Testimonials ──────────────────────────────────────── --}}
     <section id="testimonials">
         <div class="testimonials-header reveal">
             <div class="section-label">Client Testimonials</div>
@@ -245,7 +247,7 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
+    {{-- ── Contact ───────────────────────────────────────────── --}}
     <section id="contact">
         <div class="contact-grid">
             <div class="contact-info reveal">
@@ -288,6 +290,7 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28554.30975059977!2d87.95939!3d26.64621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e58c0c9c4e5d91%3A0x12345678abcde!2sBirtamode%2C%20Jhapa%2C%20Nepal!5e0!3m2!1sen!2snp!4v1234567890"
                     frameborder="0" allowfullscreen loading="lazy" title="Birtamode Map"></iframe>
             </div>
+
             <div class="reveal">
                 <div class="section-label" style="color:var(--gold);margin-bottom:30px;">Send an Enquiry</div>
                 <form class="contact-form" onsubmit="handleSubmit(event)">
@@ -325,4 +328,5 @@
                 </form>
             </div>
         </div>
-    @endsection
+    </section>
+@endsection
